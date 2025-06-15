@@ -1,0 +1,25 @@
+Input:
+Enter number of nodes (substations): 2
+Enter name, load (MW), and max capacity (MW) for node 0: X 50 100
+Enter name, load (MW), and max capacity (MW) for node 1: Y 60 120
+Enter number of edges (transmission lines): 1
+Enter edge 0: from node index, to node index, load (MW), capacity (MW): 0 1 50 40
+Enter load increase percentage to simulate (e.g., 10 for 10%): 10
+
+Output:
+Grid Status:
+Nodes (Substations):
+Node X: Load = 50 MW, Max Capacity = 100 MW
+Node Y: Load = 60 MW, Max Capacity = 120 MW
+Edges (Transmission Lines):
+Between X and Y: Load = 50 MW, Capacity = 40 MW
+
+Initial Overloads Detected:
+Overloaded Transmission Lines:
+- Between X and Y
+Grid is connected.
+
+Simulating load increase by 10%
+Overloaded Transmission Lines:
+- Between X and Y
+Grid remains connected.
